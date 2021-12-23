@@ -1,0 +1,17 @@
+.month-name {
+  font-weight: 700;
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+}
+
+.bar {
+  width: 10px;
+  height: 100px;
+  margin: auto;
+  border: 1px solid #111;
+}
+
+.bar .bar__fill {
+  background: #2ECC71;
+}

@@ -1,0 +1,15 @@
+.filtered-year {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.months-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.months-list .month {
+  width: calc(100% / 12);
+  text-align: center;
+  align-self: flex-end;
+}

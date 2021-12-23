@@ -1,0 +1,24 @@
+.expense-item {
+  margin-bottom: 1rem;
+  display: flex;
+  box-shadow: 5px 5px #181818;
+  background-color: #333;
+  align-items: center;
+}
+
+.expense-item__title {
+  font-weight: 700;
+}
+
+.expense-item__title h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.expense-item__amount {
+  margin-left: auto;
+}
+
+.expense-item__date {
+  margin-right: 1rem;
+}

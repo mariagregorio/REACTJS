@@ -1,0 +1,8 @@
+.expenses-list {
+  max-width: 800px;
+  margin: 2rem auto;
+}
+
+.expenses-list h2 {
+  margin-top: 0;
+}

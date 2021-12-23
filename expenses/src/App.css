@@ -1,0 +1,15 @@
+.btn {
+  border: 1px solid #111;
+  padding: 1rem 2rem;
+  background: #2ECC71;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #111;
+}
+
+.center {
+  text-align: center;
+}
