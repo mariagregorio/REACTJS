@@ -41,16 +41,16 @@ const ExpensesForm = ({ addExpenseToList, showForm }) => {
   return (
     <form onSubmit={submitHandler}>
       <div className='new-expense__control'>
-        <label>Title</label>
-        <input type="text" onChange={titleChangeHandler} value={title} />
+        <label htmlFor="titleInput">Title</label>
+        <input id="titleInput" type="text" onChange={titleChangeHandler} value={title} />
       </div>
       <div className='new-expense__control'>
-        <label>Amount</label>
-        <input type="number" min="0.01" step="0.01" onChange={amountChangeHandler} value={amount} />
+        <label htmlFor="amountInput">Amount</label>
+        <input id="amountInput" type="number" min="0.01" step="0.01" onChange={amountChangeHandler} value={amount} />
       </div>
       <div className='new-expense__control'>
-        <label>Date</label>
-        <input type="date" onChange={dateChangeHandler} value={date} />
+        <label htmlFor="dateInput">Date</label>
+        <input id="dateInput" type="date" onChange={dateChangeHandler} value={date} />
       </div>
       <div className='new-expense__actions'>
         <button className='cancel' type="reset" onClick={resetHandler}>Cancel</button>
