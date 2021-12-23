@@ -1,0 +1,43 @@
+.add-user-form label {
+  display: block;
+  margin-bottom: .3rem;
+}
+
+.add-user-form input {
+  font-family: 'Ubuntu Mono', monospace;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px solid #111;
+  background-color: #333;
+  padding: .5rem;
+  border-radius: 0;
+  color: #f1f1f1;
+  font-size: 1rem;
+}
+
+.add-user-form input.invalid {
+  border: 1px solid rgb(216, 13, 40);
+}
+
+.add-user-form .invalid-feedback {
+  color: rgb(216, 13, 40);
+}
+
+.add-user-form .form-control {
+  margin-bottom: 1rem;
+}
+
+.add-user-form .actions {
+  text-align: right;
+}
+
+.add-user-form .actions button {
+  border: 1px solid #111;
+  padding: 1rem 2rem;
+  background: #2ECC71;
+  font-family: 'Ubuntu Mono', monospace;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 1rem;
+  cursor: pointer;
+}
